@@ -1,0 +1,13 @@
+table(class="graph-table is-hidden" cellspacing="0" cellpadding="0")
+    tr
+        th 
+        each item in data
+            th #{item['sprint']}
+
+    each key in keys
+        tr
+            td #{key}
+            each item in data
+                td #{item[key]}
+   
+ 

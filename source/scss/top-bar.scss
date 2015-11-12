@@ -1,0 +1,18 @@
+header.top {
+    width: 100%;
+    background: $c-b1;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 70px;
+    box-sizing: border-box;
+
+    .logo {
+        width: 370px;
+        height: 100%;
+        background: $c-b2;
+    }
+}

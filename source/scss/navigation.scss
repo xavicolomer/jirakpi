@@ -1,0 +1,28 @@
+.column.menu {
+    width: 330px;
+    height: 100%;
+    background: $c-p8;
+    padding: 20px;
+    position: absolute;
+
+    li.menu-item {
+        padding: 20px 0;
+        color: rgba(255,255,255,0.2);
+        font-size: 16px;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    li.menu-item.is-active,
+    li.menu-item:hover {
+        color: rgba(255,255,255,1);
+    }
+}
+
+.main-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #484848;
+}

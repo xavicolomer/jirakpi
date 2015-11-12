@@ -1,0 +1,180 @@
+
+section.column.graph {
+    width: 100%;
+}
+
+header.graph-content {
+    width: 100%;
+    background: $c-p3;
+    padding: 20px;
+    width: 100%;
+    padding-left: 400px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.graph-legend {
+    background: #F2F2F2;
+    height: 47px;
+    padding-left: 400px;
+}
+
+.graph-legend-item {
+    display: block;
+    float: left;
+    padding-top: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 60px;
+    color: #989898;
+}
+
+.graph-legend-bullet {
+    width: 10px;
+    height: 10px;
+    float: left;
+    background: red;
+    margin-top: 17px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.graph-table {
+    padding-top: 60px;
+    padding-left: 400px;
+    width: 90%;
+
+    tr {
+        height: 50px;
+        text-align: center;
+
+        &:nth-child(even) {
+            background: #F2F2F2;
+        }
+
+        td:first-child {
+            text-align: left;
+            padding-left: 21px;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+    }
+}
+
+.graph-toggler {
+    float: right;
+    border-radius: 4px;
+    overflow: hidden;
+
+    .graph-toggle {
+        float: left;
+        text-align: center;
+        background: #C7C7C7;
+        font-size: 22px;
+        padding: 10px 20px;
+        cursor: pointer;
+
+        &.is-active {
+            background: #4C3F8E;
+            color: white;
+        }
+    }
+}
+
+.graph-title {
+    font-weight: 600;
+    font-size: 40px;
+    border-bottom: 1px solid rgba($c-p6, .1);
+    text-transform: capitalize;
+    color: $c-p6;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.graph-description {
+    padding-top: 20px;
+    font-size: 18px;
+    color: $c-p7;
+}
+
+.column.info {
+    width: 330px;
+    height: 100%;
+    float: right;
+    background: #F6E8FF;
+}
+
+.graph-svg {
+    
+}
+
+.graph svg  {
+    margin-top: 60px;
+    padding-left: 400px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+
+.tick text {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    fill: $c-p6;
+}
+
+.tick line {
+    stroke-width: 1px;
+    fill: none;
+    stroke: black;
+    right: 50px;
+    opacity: 0.1;
+}
+
+.area-1 {
+    fill: #ABE0D2;
+    background: #ABE0D2;
+}
+
+.area-0 {
+    fill: #F29483;
+    background: #F29483;
+}
+
+path.area.area-1 {
+    opacity: 0.8;
+}
+
+path.area.area-0 {
+    opacity: 0.8;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1px;
+}
+
+.axis path {
+    fill: none;
+    stroke: #777;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: Lato;
+    font-size: 13px;
+}

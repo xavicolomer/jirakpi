@@ -1,0 +1,12 @@
+header(class="graph-content") 
+    div(class="graph-title") #{info['title']}
+        div(class="graph-toggler") 
+            div(class="graph-toggle graph-toggle--graph is-active")
+                i(class="fa fa-bar-chart")
+            div(class="graph-toggle graph-toggle--table")
+                i(class="fa fa-table")
+    div(class="graph-description") #{info['description']}
+
+div(class="graph-svg")
+    div(class="graph-legend") 
+    svg(id="#{id}")
